@@ -1,0 +1,108 @@
+.project{
+  margin-top: 70px;
+
+  &__list{
+    grid-template-rows: repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 30px;
+  }
+
+  &__title{
+    padding: 0 38px;
+    margin-bottom: 13px;
+  }
+
+  &__block{
+    grid-column: span 2;
+    position: relative;
+  }
+
+  &__card{
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 20px 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .project__text{
+      color: $White;
+      max-width: 292px;
+      width: 100%;
+      margin-bottom: auto;
+    }
+  }
+
+  .card_4{
+    background-image: url(../img/1920/Projects/4.webp);
+    grid-column: span 6;
+  }
+
+  .card_5{
+    background-image: url(../img/1920/Projects/5.webp);
+    grid-column: span 6;
+  }
+
+  .card_6{
+    grid-column: span 3;
+  }
+
+  .card_7{
+    grid-column: span 3;
+  }
+
+  &__content{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 116px;
+  }
+
+  &__span{
+    top: 7px;
+    right: 5px;
+    padding: 6px 18px;
+  }
+
+  &__footer{
+    display: flex;
+  }
+
+  .project__footer svg{
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 5px;
+    fill: $Silver;
+  }
+
+  &__text{
+    margin-bottom: auto;
+  }
+
+  &__data{
+    margin-top: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: $DustyGray;
+    background-image: url(../img/svg/calendar.svg);
+    background-repeat: no-repeat;
+
+  }
+
+  &__title3{
+    margin-top: 4px;
+    margin-bottom: 7px;
+  }
+
+  &__btn{
+    margin-top: 1px;
+    padding: 12px 21px;
+    background-color:rgba(0, 0, 0, 0.1);
+  }
+
+}

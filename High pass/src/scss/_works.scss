@@ -1,0 +1,60 @@
+.works{
+  margin-top: 41px;
+  margin-bottom: 68px;
+
+  &__container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 30px;
+  }
+
+  &__right{
+    grid-column: span 6;
+  }
+
+  &__left{
+    background-image: url(../img/1920/Works/1.webp);
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 145px 60px 60px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-column: span 6;
+  }
+
+  &__info{
+    padding: 7px 22px;
+    top: 15px;
+    right: 15px;
+  }
+
+  &__btn{
+    margin-top: 21px;
+  }
+
+  &__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 104%;
+    color: $White;
+  }
+
+  &__img{
+    display: grid;
+    grid-template-columns: repeat(1, 630px);
+    grid-gap: 26px;
+  }
+
+  &__title2{
+    margin-bottom: 18px;
+  }
+
+  &__bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 30px;
+  }
+}

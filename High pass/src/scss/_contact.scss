@@ -1,0 +1,92 @@
+.contact{
+  margin-top: 55px;
+  margin-bottom: 70px;
+
+  &__title2{
+    margin-bottom: 20px;
+  }
+
+  &__container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 30px;
+  }
+
+  &__map{
+    grid-column: span 8;
+    position: relative;
+  }
+
+  .map__menu{
+    position: absolute;
+    width: 420px;
+    height: 460px;
+    opacity: .7;
+    background-color: #202020;
+    top: 0;
+    left: 0;
+    padding: 178px 50px 150px 70px;
+  }
+
+  .map__title3{
+    color: $White;
+    margin-bottom: 10px;
+  }
+
+  .map__text{
+    color: $Mercury;
+    margin-bottom: 7px;
+    line-height: 25px;
+  }
+
+  .map__link{
+    font-family: 'TT Firs Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  .map__close{
+    position: absolute;
+    top: 24px;
+    right: 18px;
+  }
+
+  .map__close svg{
+    width: 20px;
+    height: 20px;
+  }
+
+  &__right{
+    grid-column: span 4;
+  }
+
+  &__title3{
+    color: $MineShaft;
+  }
+
+  &__text{
+    margin-bottom: 15px;
+  }
+
+  .form__input-box input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: $Mercury;
+    border: none;
+  }
+
+  .form__input-box .coment{
+    height: 150px;
+    padding-bottom: 110px;
+  }
+
+}
+
